@@ -1,0 +1,33 @@
+{
+  "name": "Api Tester",
+  "description": "Tool para testear apis de Meli",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "./icon-16.png",
+    "32": "./icon-32.png",
+    "48": "./icon-48.png",
+    "128": "./icon-128.png"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "./icon-16.png",
+      "32": "./icon-32.png",
+      "48": "./icon-48.png",
+      "128": "./icon-128.png"
+    },
+    "default_title": "byWhish"
+  },
+  "background": {
+    "service_worker": "background-wrapper.js"
+  },
+  "host_permissions": [
+    "*://*/*",
+    "<all_urls>"
+  ]
+}

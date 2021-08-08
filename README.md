@@ -1,1 +1,1 @@
-# demo-chrome-extension
+# React Chrome Extension Templates

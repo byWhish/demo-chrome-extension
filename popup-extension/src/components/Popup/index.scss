@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to top, #0e5616, #fff);
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 8px;
+  width: 350px;
+  height: 580px
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,
+          40% 0%,
+          75% 84%,
+          from(#4D9C41),
+          to(#19911D),
+          color-stop(.6,#54DE5D))
+}
+
+.e-popup {
+  display: flex;
+  flex-direction: column;
+}
